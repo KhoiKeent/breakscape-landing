@@ -1,1 +1,132 @@
-# breakscape-landing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breakscape AI – Trade with Intelligence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #0c0f13;
+      color: #f1f1f1;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1e90ff, #0a0a23);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #e0e0e0;
+    }
+    .btn {
+      margin-top: 30px;
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #ffaa00;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #1a1f26;
+      padding: 25px;
+      border-radius: 10px;
+    }
+    .card h3 {
+      color: #ffcc00;
+    }
+    footer {
+      background: #141a22;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .cta {
+      background: #222831;
+      padding: 40px;
+      text-align: center;
+    }
+    .cta h3 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Breakscape AI</h1>
+    <p>AI-Driven Trading Powered by Real-Time Data + Your Unique DNA</p>
+    <a href="#download"><button class="btn">Launch App</button></a>
+  </div>
+
+  <div class="section">
+    <h2>Core Features</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🧬 Trader DNA Profiler</h3>
+        <p>Customize your risk tolerance, sector preferences and trading time horizon.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Causal Mapping Engine</h3>
+        <p>Visualize the ripple effect of headlines through 4-hop impact chains.</p>
+      </div>
+      <div class="card">
+        <h3>📊 GPT-4o Trade Protocols</h3>
+        <p>Multi-step AI reasoning for entry, hedge, and exit decisions—based on your profile.</p>
+      </div>
+      <div class="card">
+        <h3>🕶️ Dark Pool & Sentiment</h3>
+        <p>Access real-time dark pool prints and sentiment scores. Built with Finnhub API.</p>
+      </div>
+      <div class="card">
+        <h3>💎 Freemium & Premium</h3>
+        <p>3 alerts/day free. Go premium for SMS alerts and real-time trading edge.</p>
+      </div>
+      <div class="card">
+        <h3>📤 Export & Partner</h3>
+        <p>Export anonymized DNA trading data for insight-sharing and research collabs.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h3>Trade smarter. Visualize faster. Decide better.</h3>
+    <p>Breakscape is your strategic edge. Ready to decode the noise?</p>
+    <a id="download" href="https://github.com/YOUR_USERNAME/breakscape-ai"><button class="btn">Get the Code</button></a>
+  </div>
+
+  <footer>
+    &copy; 2025 Breakscape AI. Built for traders who see ahead.
+  </footer>
+</body>
+</html>
+Add full README.md content
